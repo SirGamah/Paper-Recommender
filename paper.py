@@ -6,12 +6,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load data
-
 file_id = '1h3am3IqWft_2RCaQuaM2u6iE-fPa6DTh'  
 url = f'https://drive.google.com/uc?id={file_id}'
 df = pd.read_csv(url)
 
-df = df.sample(100)
+#df = df.sample(100)
 
 
 # Initialize the vectorizers
